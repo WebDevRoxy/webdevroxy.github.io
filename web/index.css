@@ -1,0 +1,53 @@
+h1 {
+    color: #9D4C3C;
+    font-weight: bold;
+}
+
+span {
+    color: #445659;
+    font-weight: bold;
+}
+
+.privacy {
+    padding-top: 3.5vw;
+    color: #75624B;
+}
+
+figcaption {
+    color: #75624B;
+    margin-bottom: 0.7vw;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 20px;
+    }
+    span,
+    p,
+    figcaption {
+        font-size: 16px;
+    }
+    img {
+        width: 70%;
+    }
+    .privacy {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 801px) {
+    h1 {
+        font-size: 18px;
+    }
+    span,
+    p,
+    figcaption {
+        font-size: 14px;
+    }
+    img {
+        width: 90%;
+    }
+    .privacy {
+        font-size: 12px;
+    }
+}

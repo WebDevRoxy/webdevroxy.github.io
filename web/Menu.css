@@ -1,0 +1,129 @@
+/*Image caption settings*/
+
+figcaption {
+    color: #75624B;
+    margin-bottom: 0.7vw;
+}
+
+
+/*Margin between menu lists*/
+
+.wrapper {
+    margin-bottom: 2.7vw;
+}
+
+
+/*List settings*/
+
+li span {
+    color: #75624B;
+    font-weight: normal;
+    padding-left: 1.1vw;
+}
+
+.menuContainer li {
+    color: #9D4C3C;
+    font-weight: bold;
+    margin-bottom: 0.7vw;
+}
+
+
+/*Remove bullets from lists and centre list*/
+
+.menuContainer ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0px auto;
+    padding: 0px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+
+/*Menu header 1 settings*/
+
+.menuContainer h1 {
+    font-size: 2.2vw;
+    color: #9D4C3C;
+    font-weight: bold;
+}
+
+
+/*Menu header 2 settings*/
+
+.menuContainer h2 {
+    font-size: 2.2vw;
+    color: #445659;
+    font-weight: bold;
+}
+
+
+/*Beverage menu settings*/
+
+.beverages h3 {
+    font-size: 2vw;
+    color: #9D4C3C;
+    font-weight: bold;
+}
+
+.beverages ul li {
+    font-size: 2vw;
+    color: #75624B;
+    font-weight: normal;
+}
+
+
+/*Element size for larger browser*/
+
+@media screen and (min-width: 800px) {
+    .wrapper li,
+    .wrapper li span,
+    .beverages ul li,
+    figcaption {
+        font-size: 16px;
+    }
+    .menuContainer h1 {
+        font-size: 20px;
+    }
+    .menuContainer h2 {
+        font-size: 18px;
+    }
+    .red h3,
+    .white h3,
+    .beerCider h3,
+    .nonAlcoholic h3 {
+        font-size: 17px;
+    }
+    img {
+        width: 70%;
+    }
+}
+
+
+/*Element size for smaller browser*/
+
+@media screen and (max-width: 801px) {
+    .wrapper li,
+    .wrapper li span,
+    .beverages ul li,
+    figcaption {
+        font-size: 14px;
+    }
+    .menuContainer h1 {
+        font-size: 18px;
+    }
+    .menuContainer h2 {
+        font-size: 16px;
+    }
+    .red h3,
+    .white h3,
+    .beerCider h3,
+    .nonAlcoholic h3 {
+        font-size: 15px;
+    }
+    img {
+        width: 90%;
+    }
+}

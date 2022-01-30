@@ -1,0 +1,43 @@
+/*Header 1*/
+
+h1 {
+    color: #9D4C3C;
+    font-weight: bold;
+}
+
+
+/*Header 2*/
+
+h2 {
+    color: #75624B;
+    font-weight: normal;
+}
+
+h2 span {
+    color: #445659;
+    font-weight: bold;
+}
+
+
+/*Element size for larger browser*/
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+
+/*Element size for smaller browser*/
+
+@media screen and (max-width: 801px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
